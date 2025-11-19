@@ -2,13 +2,13 @@
 
 int main()
 {
-    float radius;
+    float r;
     float pi=3.14;
 
     printf("Please enter the radius of the circle: ");
-    scanf("%f", &radius);
+    scanf("%f", &r);
 
-    printf("Area: %f Perimeter: %f", pi*radius*radius, 2*pi*radius\n);
+    printf("Area: %f Perimeter: %f\n", pi*r*r, 2*pi*r);
 
     return 0;
 }
