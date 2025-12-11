@@ -2,6 +2,7 @@
 
 int main() {
     int n, i;
+    // Use long long for the result to handle larger factorials
     long long factorial = 1;
 
     printf("Enter a non-negative integer: ");
